@@ -17,20 +17,20 @@ const coffeeLovers = ["John Doe", "Liam Smith", "Jessy Pinkman"];
 */
 
 const ageAbove18 = (person) => {
-    if (person.age > 18) {
-      return person;
-    }
+  if (person.age > 18) {
+    return person;
+  }
 };
 
 // apply coffeLover status to every person in array
 const addCoffeeLoverProperty = (person) => {
-    if (coffeeLovers.includes(person.name)) {
-      person["coffeeLover"] = true;
-    } else {
-      person["coffeeLover"] = false;
-    }
+  if (coffeeLovers.includes(person.name)) {
+    person["coffeeLover"] = true;
+  } else {
+    person["coffeeLover"] = false;
+  }
 
-    return person;
+  return person;
 };
 
 // count the age of above18 coffeeLovers
