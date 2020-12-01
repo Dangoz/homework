@@ -16,11 +16,7 @@ const coffeeLovers = ["John Doe", "Liam Smith", "Jessy Pinkman"];
 3. Get the total summed age of all people who are coffee lovers and above the age of 18 (Use a function called ageReducer)
 */
 
-const ageAbove18 = (person) => {
-  if (person.age > 18) {
-    return person;
-  }
-};
+const ageAbove18 = (person) => person.age > 18;
 
 // apply coffeLover status to every person in array
 const addCoffeeLoverProperty = (person) => {
